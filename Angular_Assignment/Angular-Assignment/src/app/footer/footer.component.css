@@ -1,0 +1,9 @@
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background-color: cadetblue;
+    bottom: 0;
+    margin: auto;
+    padding: inherit;
+}

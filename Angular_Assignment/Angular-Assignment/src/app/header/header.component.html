@@ -1,0 +1,30 @@
+<header>
+    <div style="background-color:#d3e0cc;" class="jumbotron jumbotron-fluid p-2 header-border">
+        <div class="container text-center">
+            <h4 class="font-weight-bold">Result Management System</h4>
+        </div>
+    </div>
+</header>
+
+<!-- <ul>
+    <li *ngFor="let user of userData">
+        {{user.name}}
+    </li>
+</ul> -->
+<!-- 
+<ul>
+    <li *ngFor="let user of users">
+        {{user.name}}
+    </li>
+</ul> -->
+<ul>
+    <li *ngFor="let prod of abc; let i = index" [attr.data-index]="i">
+      {{abc[i].title}} 
+    </li>
+</ul> 
+
+<a routerLink="child1">Child1</a>
+<br>
+<a routerLink="child2">Child2</a>
+
+<router-outlet></router-outlet>
